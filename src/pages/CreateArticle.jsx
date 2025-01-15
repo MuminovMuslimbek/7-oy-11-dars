@@ -73,15 +73,15 @@ function CreateArticle() {
       <h1 className="mb-5 font-medium text-2xl">Create Article</h1>
       <div className="mb-4">
         <label htmlFor="title" className="block mb-2 font-medium text-lg"> Title </label>
-        <input type="text" id="title" value={title} onChange={(e) => setTitle(e.target.value)} className="border-gray-300 p-3 border rounded-lg w-full" placeholder="Enter the title" />
+        <input type="text" id="title" value={title} onChange={(e) => setTitle(e.target.value)} className="border-gray-300 p-3 border rounded-lg w-full text-black" placeholder="Enter the title" />
       </div>
       <div className="mb-4">
         <label htmlFor="description" className="block mb-2 font-medium text-lg"> Description </label>
-        <input type="text" id="description" value={description} onChange={(e) => setDescription(e.target.value)} className="border-gray-300 p-3 border rounded-lg w-full" placeholder="Enter the description" />
+        <input type="text" id="description" value={description} onChange={(e) => setDescription(e.target.value)} className="border-gray-300 p-3 border rounded-lg w-full text-black" placeholder="Enter the description" />
       </div>
       <div className="mb-4">
         <label htmlFor="fullDescription" className="block mb-2 font-medium text-lg"> Full Description </label>
-        <textarea id="fullDescription" value={fullDescription} onChange={(e) => setFullDescription(e.target.value)} className="border-gray-300 p-3 border rounded-lg w-full" rows="5" placeholder="Enter the full description" />
+        <textarea id="fullDescription" value={fullDescription} onChange={(e) => setFullDescription(e.target.value)} className="border-gray-300 p-3 border rounded-lg w-full text-black" rows="5" placeholder="Enter the full description" />
       </div>
       <button type="submit" className="bg-blue-500 py-3 rounded-lg w-full font-medium text-white" > Submit </button>
     </form>

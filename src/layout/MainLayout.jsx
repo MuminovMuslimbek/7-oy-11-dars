@@ -1,6 +1,6 @@
 import React from 'react'
-import LeftAside from '../component/LeftAside'
-import RightAside from '../component/RightAside'
+import LeftAside from '../components/LeftAside'
+import RightAside from '../components/RightAside'
 
 function MainLayout({ children }) {
     return (
